@@ -386,6 +386,8 @@ class PrintStream {
   void print(@ReceiverDependentMutable PrintStream this, String var1);
   PrintStream printf(@ReceiverDependentMutable PrintStream this, String var1, @Readonly Object @Readonly ... var2);
   PrintStream format(String format, @Readonly Object @Readonly ... args);
+  void println(@ReceiverDependentMutable PrintStream this, @Readonly Object x);
+  void print(@ReceiverDependentMutable PrintStream this, @Readonly Object x);
 }
 
 @ReceiverDependentMutable
